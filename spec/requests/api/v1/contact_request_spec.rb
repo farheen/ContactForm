@@ -23,7 +23,7 @@ RSpec.describe "Api::V1::Contact", type: :request do
       end
 
       it "creates a contact with the correct attributes" do
-         post "/api/v1/contacts", params: valid_params
+         post "/api/v1/contact", params: valid_params
          expect(Contact.last).to have_attributes valid_params[:contact]
       end
     end

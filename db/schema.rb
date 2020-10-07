@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_06_062913) do
+ActiveRecord::Schema.define(version: 2020_10_07_061332) do
 
   create_table "api_v1_contacts", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.string "email_id"
+    t.integer "phone_no"
+    t.string "message"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "contacts", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
     t.string "email_id"

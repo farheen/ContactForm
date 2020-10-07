@@ -4,18 +4,20 @@ class Api::V1::ContactController < ApplicationController
   end
   
   def create
-    @contact = Contact.new(:first_name, :last_name, :email, :phone_no, :message)
+    @contact = Contact.new(contact_params)
     if @contact.save
-      render json: @user
+      render json: @contact
     else
       render error: { error: 'Unable to create contact.' }, status: 404
     end
   end
 
   def index
+    @contact = Contact.all
+    render json: @contact
   end
 
   def contact_params
-    params.require(:contact).permit(:first_name, :last_name, :email, :phone_no, :message)
+    params.permit(:first_name,:last_name,:email_id,:phone_no,:message)
   end
 end

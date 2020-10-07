@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'api/v1/contact#create'
   namespace :api do
     namespace :v1 do
       get 'contact/new'

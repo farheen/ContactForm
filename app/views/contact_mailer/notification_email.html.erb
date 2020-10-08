@@ -1,0 +1,17 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>A contact has been added with the following details: </h1>
+    <p>
+       Name : <%= @contact.first_name %> <%= @contact.last_name %> <br>
+       Email Id: <%= @contact.email_id %> <br>
+       Phone Number: <%= @contact.phone_no %> <br>
+       Message: <%= @contact.message %>
+    </p>
+    <p>Thanks, Have a great day!</p>
+  </body>
+</html>

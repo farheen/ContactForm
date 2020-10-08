@@ -83,7 +83,21 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   config.serve_static_assets = true
+  
+  config.action_mailer.delivery_method = :smtp
+  host = 'localhost' #replace with your own url
+  config.action_mailer.default_url_options = { host: host }
 
+  # SMTP settings for gmail
+  config.action_mailer.smtp_settings = {
+    address:        'smtp.gmail.com',
+    port:           587,
+    domain:         'smtp.gmail.com',
+    user_name:      'farheenzahara@gmail.com',
+    password:       'Syefar@1529',
+    authentication: 'plain'
+
+  }
   # Inserts middleware to perform automatic connection switching.
   # The `database_selector` hash is used to pass options to the DatabaseSelector
   # middleware. The `delay` is used to determine how long to wait after a write

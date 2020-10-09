@@ -3,6 +3,6 @@ class ContactMailer < ApplicationMailer
 
   def notification_email(contact)
     @contact = contact
-    mail(to: 'farheenzahara@gmail.com', subject: "A contact with the name #{@contact.first_name} #{@contact.last_name} has been added.")
+    mail(to: 'info@ajackus.com', subject: "A contact with the name #{@contact.first_name} #{@contact.last_name} has been added.")
   end
 end

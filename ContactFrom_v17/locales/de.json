@@ -1,0 +1,8 @@
+{ 
+    "first_name": "Vorname", 
+    "last_name": "Nachname",
+    "email_id": "email_id",
+    "phone_no":"Telefonnummer",
+    "message": "Botschaft" 
+}
+

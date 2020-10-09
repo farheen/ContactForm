@@ -1,0 +1,10 @@
+[main]
+host = https://www.transifex.com
+
+[contactform-1.index-en-html]
+file_filter = translations/<lang>/index.de.html
+minimum_perc = 0
+source_file = index.en.html
+source_lang = en
+type = HTML
+

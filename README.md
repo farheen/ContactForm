@@ -2,7 +2,7 @@
 A website designed to save contact data of the interested users.
 
 ## SETUP 
-1. Clone the git repository.
+1. Clone the git repository "https://github.com/farheen/ContactForm.git" from the master branch.
 2. Inside the ContactForm folder you find two folders:
    * contact_frontend
    * contact_backend

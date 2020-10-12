@@ -39,36 +39,36 @@
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form action="http://localhost:3000/api/v1/contact/create" method="post" enctype="multipart/form-data" class="contact100-form validate-form">
+			<form id="myform" action="http://localhost:3000/api/v1/contact/create" method="post" enctype="multipart/form-data" class="contact100-form validate-form">
 				<span class="contact100-form-title lang"key="Send">
 					Send Us A Message
 				</span>
 
 				<label class="label-input100 lang" key="tell" for="first-name">Tell us your name *</label>
-				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
-					<input id="first-name" class="input100 lang" type="text" key="first_name" name="first_name" placeholder="First name">
+				<div class="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name(Geben Sie den Vornamen ein).">
+					<input id="first-name" class="input100" type="text" name="first_name" placeholder="First name">
 					<span class="focus-input100"></span>
 				</div>
-				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name">
-					<input class="input100 lang" type="text"key="last_name" name="last_name" placeholder="Last name">
+				<div class="wrap-input100 rs2-wrap-input100 validate-input" data-validate="Type last name(Geben Sie den Nachnamen ein)">
+					<input class="input100" type="text" name="last_name" placeholder="Last name">
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100 lang" key="enter" for="email">Enter your email *</label>
-				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz(Eine gültige E-Mail-Adresse ist erforderlich: ex@abc.xyz)">
 					<input id="email" class="input100 lang" key="email" type="text" name="email_id" placeholder="Eg. example@email.com">
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100 lang" key="Enter_p" for="phone">Enter phone number</label>
 				<div class="wrap-input100">
-					<input id="phone" class="input100 lang" key="phone" type="text" name="phone_no" placeholder="Eg. +1 800 000000">
+					<input id="phone" class="input100 " type="text" name="phone_no" placeholder="Eg. +1 800 000000">
 					<span class="focus-input100"></span>
 				</div>
 
 				<label class="label-input100 lang" key="message" for="message">Message *</label>
-				<div class="wrap-input100 validate-input" data-validate = "Message is required">
-					<textarea id="message" class="input100" name="message" placeholder="Write us a message"></textarea>
+				<div class="wrap-input100 validate-input " data-validate = "Message is required(Nachricht ist erforderlich)">
+					<textarea id="message" class="input100" name="message" placeholder="Write us a message."></textarea>
 					<span class="focus-input100"></span>
 				</div>
 

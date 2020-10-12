@@ -54,6 +54,8 @@ var arrLang = {
           $(".lang").each(function(index, element) {
             $(this).text(arrLang[lang][$(this).attr("key")]);
           });
+          if (lang == "de"){
+          document.getElementById("myform").action ="http://localhost:3000/de/api/v1/contact/create";};
         });
 
 

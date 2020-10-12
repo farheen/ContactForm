@@ -26,8 +26,28 @@
 # en:
 #   'true': 'foo'
 #
-# To learn more, please read the Rails Internationalization guide
+# To learn more, please read the Rails Internationalization gude
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  txt:
+    controller:
+      api:
+        v1:
+          contact:
+            success: "The contact has been created successfully."
+            error: "Unable to create contact."
+    mailer:
+      contact_mailer:
+        notification_email:
+          email_html: 'A contact with the name #{@contact.first_name} #{@contact.last_name} has been added.'
+        
+  activerecord:
+    attributes: 
+      contact:    
+        first_name: first_name
+        last_name: last_name
+        email_id: email_id
+        phone_no: phone_no
+        message: message           
+        ...

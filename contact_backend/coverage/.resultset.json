@@ -1,0 +1,148 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/farheen/workspace/create-contact/contact_backend/app/mailers/contact_mailer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/mailers/application_mailer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/spec/models/contact_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/models/contact.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/spec/requests/api/v1/contact_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          2,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/models/api/v1.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/controllers/api/v1/contact_controller.rb": {
+        "lines": [
+          1,
+          1,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/farheen/workspace/create-contact/contact_backend/app/serializers/contact_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1602513367
+  }
+}

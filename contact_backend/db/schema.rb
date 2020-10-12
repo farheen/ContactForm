@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_10_09_105736) do
+ActiveRecord::Schema.define(version: 2020_10_12_065509) do
 
   create_table "contacts", force: :cascade do |t|
     t.string "first_name"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 2020_10_09_105736) do
     t.string "message"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "locale"
   end
 
   create_table "translations", force: :cascade do |t|
